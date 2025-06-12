@@ -1,34 +1,73 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background: #f4f4f4;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.post {
-  margin-bottom: 30px;
-}
-
-h1, h2 {
-  color: #333;
-}
-
-@media (max-width: 600px) {
-  body {
-    padding: 10px;
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 20px;
+          background: #f4f4f4;
+    }
+        
+        .container {
+          max-width: 800px;
+          margin: 0 auto;
+          background: #fff;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #333;
+    }
+    
+    .post {
+      margin-bottom: 30px;
+    }
+    
+    .post p {
+      line-height: 1.6;
+      color: #555;
+    }
+    @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  
+    .container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 26px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
   }
-  .container {
-    padding: 15px;
-  }
-}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Figments of my Soul</h1>
+
+    <div class="post">
+      <h2>Happy Father’s Day ❤️</h2>
+      <p>Now that I am a dad myself, I envy the way you balanced so many roles...</p>
+    </div>
+
+    <div class="post">
+      <h2>Another Blog Post</h2>
+      <p>This is where your second blog post would go.</p>
+    </div>
+
+  </div>
+</body>
+</html>
 
 <div class="container">
   <h1>Figments of my Soul</h1>
